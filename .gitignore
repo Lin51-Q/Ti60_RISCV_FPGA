@@ -1,0 +1,24 @@
+# ===== Efinity 编译产物 =====
+outflow/
+*.log
+
+# ===== 仿真中间文件 =====
+*.vcd
+*.fst
+*.wlf
+work/
+vsim.wlf
+transcript
+
+# ===== 系统 / 临时 =====
+Thumbs.db
+Desktop.ini
+*.tmp
+.DS_Store
+
+# ===== 大体积参考资料（建议单独存网盘/移动硬盘，不进版本库）=====
+00_reference/
+
+# ===== Python =====
+__pycache__/
+*.pyc
